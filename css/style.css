@@ -23,7 +23,7 @@ body {
 .second-wrapper {
   border: 2px dotted red;
   flex: 2;
-  min-height: 350px;
+  min-height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,7 +38,7 @@ body {
 .fourth-wrapper {
   border: 2px dotted blue;
   flex: 1;
-  min-height: 250px;
+  min-height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,10 +101,13 @@ h1 {
 .info-box {
   /* this box is contained within second-wrapper */
   border: 2px dotted blue;
-  width: 60%;
+  /* width: 65%; */
+  min-height: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  gap: 30px;
 }
 h2 {
   font-weight: 800;
@@ -114,6 +117,7 @@ h2 {
 .content-wrapper {
   border: 2px dotted orangered;
   display: flex;
+  width: 65%;
 }
 .content-box {
   border: 3px dotted rgb(15, 100, 15);
@@ -121,12 +125,13 @@ h2 {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  gap: 15px;
 }
 .square {
-  border: 2px solid #3882f6;
+  border: 3px solid #3882f6;
   border-radius: 10px;
-  height: 150px;
-  width: 150px;
+  height: 170px;
+  width: 170px;
 }
 .quote-box {
   /* this box is contained within third-wrapper */
@@ -147,7 +152,27 @@ h2 {
   font-weight: bold;
 }
 .cta {
-  border: 2px solid #3882f6;
+  /* border: 2px solid #3882f6; */
+  background-color: #3882f6;
+  border-radius: 10px;
   width: 70%;
   height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cta-content-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 85%;
+}
+.cta-button {
+  border: 2px solid #f9faf8;
+  border-radius: 5px;
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+button {
+  width: 100px;
 }
