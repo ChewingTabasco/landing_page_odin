@@ -98,7 +98,7 @@ h1 {
   color: #e5e7eb;
   font-size: 18px;
 }
-.img-placeholder {
+.img-box {
   /* this box is contained within first-wrapper */
   /* border: 2px solid yellowgreen; */
   /* background-color: rgb(175, 175, 175); */
@@ -107,7 +107,7 @@ h1 {
   /* temporary height fix */
   min-height: 225px;
   /* testing starts below */
-  background-image: url(/images/splash-image.jpeg);
+  background-image: url(../images/splash-image.jpeg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
